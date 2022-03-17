@@ -1,0 +1,4 @@
+100 boids
+speed 8 - 2
+see dist 100
+2 7 3
