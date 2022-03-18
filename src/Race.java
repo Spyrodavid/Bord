@@ -16,6 +16,7 @@ public class Race extends JFrame {
 	private Random rand = new Random();
 	public static int width;
 	public static int height;
+	int i = 0;
 	
 	public Race() {
 		super("The Tortoise & The Hare!");
@@ -64,7 +65,7 @@ public class Race extends JFrame {
 				}
 				
 				
-				//addGhosts();
+				addGhosts();
 		
 				for (Racer racer : racerList) {
 					
@@ -91,6 +92,8 @@ public class Race extends JFrame {
 					
 					
 				}
+				i++;
+				System.out.println(i);
 				//drawAvg(g);
 				/** end of student code, part 2 */
 				

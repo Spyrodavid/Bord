@@ -16,7 +16,7 @@ public class Bord extends Racer
 {
 	static Random rand;
 	Tri[] dirTris = new Tri[4];
-	double speed = 20;
+	double speed = 7;
 	
    /** Default Constructor: calls Racer default constructor
    */
